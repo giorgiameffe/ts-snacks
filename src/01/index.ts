@@ -96,6 +96,9 @@ console.log(players);
 // 📝 Esercizio 4.1
 // Dichiara una tupla `[number, number]` per rappresentare una coordinata GPS.
 
+const coordinate: [number, number] = [23, 9];
+console.log(coordinate);
+
 
 // 📝 Esercizio 4.2
 // Dichiara una tupla `[string, number, boolean]` che rappresenta rispettivamente: nome, età, e stato attivo.
