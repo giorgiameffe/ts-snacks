@@ -24,8 +24,21 @@ console.log(phoneProduct);
 // Dichiara un array di numeri che rappresentano temperature in gradi Celsius.
 const celsiusGrades = [23, 30, 12, 35];
 console.log(celsiusGrades);
-// 📝 Esercizio 3.2
-// Dichiara un array di oggetti `{ name: string, score: number }` per rappresentare una classifica.
+const players = [
+    {
+        name: 'Vittorio',
+        score: 50
+    },
+    {
+        name: 'Laura',
+        score: 74.3
+    },
+    {
+        name: 'Celeste',
+        score: 80
+    }
+];
+console.log(players);
 // =======================================
 // TUPLE
 // =======================================

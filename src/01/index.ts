@@ -65,6 +65,29 @@ console.log(celsiusGrades);
 // 📝 Esercizio 3.2
 // Dichiara un array di oggetti `{ name: string, score: number }` per rappresentare una classifica.
 
+interface Player {
+    name: string,
+    score: number
+}
+
+const players: Player[] = [
+
+    {
+        name: 'Vittorio',
+        score: 50
+    },
+    {
+        name: 'Laura',
+        score: 74.3
+    },
+    {
+        name: 'Celeste',
+        score: 80
+    }
+]
+
+console.log(players);
+
 
 // =======================================
 // TUPLE
