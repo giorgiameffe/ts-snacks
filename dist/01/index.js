@@ -48,6 +48,8 @@ const coordinate = [23, 9];
 console.log(coordinate);
 // 📝 Esercizio 4.2
 // Dichiara una tupla `[string, number, boolean]` che rappresenta rispettivamente: nome, età, e stato attivo.
+const employee = ['Tancredi', 30, true];
+console.log(employee);
 // =======================================
 // UNION TYPES
 // =======================================
