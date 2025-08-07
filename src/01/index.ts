@@ -116,6 +116,18 @@ console.log(employee);
 // - Se è una stringa, stampala in maiuscolo.
 // - Se è un numero, stampa "ID: " seguito dal numero.
 
+function printId(id: string | number): void {
+
+    if (typeof id === 'string') {
+        console.log(id.toUpperCase());
+    } else {
+        console.log(`ID: ${id}`)
+    }
+}
+
+printId('2');
+printId(3);
+
 
 // =======================================
 // 6. OOP – Classi & Ereditarietà
