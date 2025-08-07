@@ -7,6 +7,15 @@
 // 📝 Esercizio 1
 // Crea un type alias `UserID` che rappresenta un valore che può essere una stringa oppure un numero.
 
+type UserID = string | number;
+
+const userIdString: UserID = '3';
+
+const userIdNumber: UserID = 3;
+
+console.log(userIdString);
+console.log(userIdNumber);
+
 
 // =======================================
 // INTERFACE
