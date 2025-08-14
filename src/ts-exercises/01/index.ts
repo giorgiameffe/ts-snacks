@@ -152,11 +152,27 @@ class Person {
     }
 }
 
-const person = new Person('Laura', 30);
-person.greet();
+const personOne = new Person('Laura', 30);
+personOne.greet();
 
 
 // 📝 Esercizio 6.2
 // Crea una sottoclasse `Student` che estende `Person` e aggiunge:
 // - proprietà: `grade` (number)
 // - metodo: `isPassing()` → restituisce `true` se `grade >= 60`
+
+class Student extends Person {
+    grade: number;
+
+    constructor(name: string, age: number, grade: number) {
+        super(name, age);
+        this.grade = grade;
+    }
+
+    isPassing(): boolean {
+        return this.grade >= 60;
+    }
+}
+
+const personTwo = new Student('Giulio', 23, 80);
+console.log(personTwo.isPassing());
