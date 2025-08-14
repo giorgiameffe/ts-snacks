@@ -138,6 +138,23 @@ printId(3);
 // - proprietà: `name` (string), `age` (number)
 // - metodo: `greet()` → stampa `Ciao, sono {name}`
 
+class Person {
+    name: string;
+    age: number
+
+    constructor(name: string, age: number) {
+        this.name = name;
+        this.age = age
+    }
+
+    greet(): void {
+        console.log(`Ciao sono ${this.name}`);
+    }
+}
+
+const person = new Person('Laura', 30);
+person.greet();
+
 
 // 📝 Esercizio 6.2
 // Crea una sottoclasse `Student` che estende `Person` e aggiunge:

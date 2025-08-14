@@ -10,7 +10,8 @@
     "skipLibCheck": true /* Salta il controllo dei tipi nei file di dichiarazione delle librerie (.d.ts) per velocizzare la compilazione. */
   },
   "include": [
-    "src/**/*" /* Include tutti i file TypeScript nella cartella 'src' e nelle sue sottocartelle per la compilazione. */
+    "src/**/*" /* Include tutti i file TypeScript nella cartella 'src' e nelle sue sottocartelle per la compilazione. */,
+    "index.ts"
   ],
   "exclude": [
     "node_modules", /* Esclude la cartella 'node_modules' dalla compilazione. */

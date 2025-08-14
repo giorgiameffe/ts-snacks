@@ -8,7 +8,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "1": "node dist/01/index.js"
+    "1": "node dist//ts-exercises/01/index.js"
   },
   "keywords": [],
   "author": "",
